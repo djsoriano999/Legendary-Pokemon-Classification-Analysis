@@ -65,9 +65,6 @@ The project includes multiple analytical queries covering:
 📌 Full SQL script available here:
 👉 `PokemonDBQueriesLatest.sql`
 
-📌 Query explanations and results:
-👉 `PokemonDBQueryResults.docx` 
-
 📌 Project presentation:
 👉 `PokemonDBPresentation.pptx` 
 
