@@ -40,7 +40,6 @@ The study focuses on comparing performance metrics, structural attributes (types
 ## Tools & Technologies
 
 * Azure SQL Database
-* T-SQL (SQL Server)
 * Visual Studio Code
 * DBCode (for visualizations)
 * Excel (data cleaning)
