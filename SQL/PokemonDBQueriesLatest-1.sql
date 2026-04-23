@@ -168,7 +168,7 @@ ORDER BY Pokemon_Category, Avg_Card_Price DESC;
 
 
 /* 10) Calculate the average trading card price for both legendary and non-legendary Pokémon using variables. 
-Then, identify legendary Pokémon whose card prices are above the legendary average, displaying their individual prices alongside both group averages, sorted from highest to lowest price. */
+Then, identify legendary Pokémon whose card prices are above the legendary average and non legendary average, displaying their individual prices alongside both group averages, sorted from highest to lowest price. */
 
 DECLARE @LegendaryAvgPrice DECIMAL(10,2);
 DECLARE @Non_LegendaryAvgPrice DECIMAL(10,2);
