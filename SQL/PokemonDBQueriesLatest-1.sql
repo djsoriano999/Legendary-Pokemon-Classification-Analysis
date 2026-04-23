@@ -196,8 +196,10 @@ SELECT
 FROM Pokemon_Cards pc
 JOIN Pokemon p
     ON pc.Pokemon_Id = p.Pokemon_Id
-WHERE pc.Recent_Price_USD > @LegendaryAvgPrice
-AND pc.Recent_Price_USD > @Non_LegendaryAvgPrice
+WHERE 
+    (p.Is_Legendary = 1 AND pc.Recent_Price_USD > @LegendaryAvgPrice)
+    OR
+    (p.Is_Legendary = 0 AND pc.Recent_Price_USD > @Non_LegendaryAvgPrice)
 ORDER BY p.Is_Legendary, pc.Recent_Price_USD DESC;
 
 
